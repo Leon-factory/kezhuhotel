@@ -1,0 +1,97 @@
+.float-left{
+	float: left;
+}
+.clear{
+    float: none;
+    width: 0;
+    height: 0;
+    clear: both;
+}
+
+.sw_all{
+	width: 1200px;
+	height: 400px;
+}
+.sw_check{
+	/* width: 900px; */
+	/* height: 300px; */
+	/* margin-top: 20px;
+    margin-left: 30px; */
+}
+.text_align_center{
+	text-align:center;
+}
+.sw_mon{
+	width: 80px;
+	height: 60px;
+	line-height:25px;
+	vertical-align: middle;
+    margin-left: 30px;
+    border-left:1px solid #000;
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+}
+.sw_tue{
+	width: 80px;
+	height: 60px;
+	line-height:25px;
+	vertical-align: middle;
+	border-left:1px solid #000;
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+}
+.sw_wed{
+	width: 80px;
+	height: 60px;
+	line-height:25px;
+	vertical-align: middle;
+	border-left:1px solid #000;
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+}
+.sw_thu{
+	width: 80px;
+	height: 60px;
+	line-height:25px;
+	vertical-align: middle;
+	border-left:1px solid #000;
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+}
+.sw_fri{
+	width: 80px;
+	height: 60px;
+	line-height:25px;
+	vertical-align: middle;
+	border-left:1px solid #000;
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+}
+.sw_sat{
+	width: 80px;
+	height: 60px;
+	line-height:25px;
+	vertical-align: middle;
+	border-left:1px solid #000;
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+}
+.sw_sun{
+	width: 80px;
+	height: 60px;
+	line-height:25px;
+	vertical-align: middle;
+	border-left:1px solid #000;
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+    border-right:1px solid #000;
+}
+.sw_save{
+	width: 60px;
+	height: 45px;
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+    border-right:1px solid #000;
+    padding-top:15px;
+    padding-left:20px;
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:websocket="http://www.springframework.org/schema/websocket"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/websocket
+		http://www.springframework.org/schema/websocket/spring-websocket.xsd">
+        
+        
+    <websocket:handlers allowed-origins="*">
+		<websocket:mapping handler="messageHandler" path="/marco"/>
+		<websocket:handshake-interceptors>
+			<bean class="com.kzhotel.BLL.HandshakeInterceptor"></bean>
+		</websocket:handshake-interceptors>
+	</websocket:handlers>
+        
+    <websocket:handlers>		
+		<websocket:mapping handler="messageHandler" path="/js/marco"/>
+		<websocket:handshake-interceptors>
+			<bean class="com.kzhotel.BLL.HandshakeInterceptor"></bean>
+		</websocket:handshake-interceptors>
+		<websocket:sockjs />
+	</websocket:handlers>
+	
+	<bean id="messageHandler" class="com.kzhotel.BLL.MessageHandler"></bean>
+	
+	
+    
+</beans>

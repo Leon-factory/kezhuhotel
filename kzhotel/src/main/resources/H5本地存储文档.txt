@@ -1,0 +1,2 @@
+会话存储sessionStorage：
+	1.制卡销卡JSP页面：强行注销门卡Btn使用了

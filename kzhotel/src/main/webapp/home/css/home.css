@@ -1,0 +1,529 @@
+/* =============================================================
+   GENERAL STYLES
+ ============================================================ */
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.set-pad {
+    padding-top:35px;
+}
+.set-row-pad {
+    padding-top:30px;
+    padding-bottom:50px;
+}
+/*=====================================
+  NAVBAR STYLES 
+    ===================================*/
+
+.logo-custom {
+    max-height: 40px;
+}
+
+#menu {
+    background-color: rgba(28, 43, 75, 1);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 900;
+    /* letter-spacing: 1px; */
+    min-height: 70px;
+}
+
+
+.navbar-inverse {
+    border-color: transparent;
+}
+
+    .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a:hover {
+        color: #FFF;
+        padding: 22px 10px;
+    }
+.navbar-fixed-top{top:0px;}
+
+/*=====================================
+  HOME STYLES 
+    ===================================*/
+.home-sec {
+    /* padding-top: 80px;
+    padding-bottom: 60px; */
+    /* margin-top: 80px; */
+   /*  background: url(../img/login_img.jpg) no-repeat center center; */
+   margin-top: -20px;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+    .home-sec .overlay {
+        /* background: rgba(38, 57, 88, 0.89); */
+        background-image: url(../images/login_img.jpg) ;
+        min-height: 443px;
+        width: 100%;
+	height: 443px;
+	background-size: 100% 100%;
+    }
+
+    .home-sec h1 {
+        color: #fff;
+        font-weight: 900;
+        font-size: 50px;
+        text-transform: uppercase;
+        padding-bottom: 35px;
+    }
+
+    .home-sec h3 {
+        text-transform: uppercase;
+    }
+
+
+
+.set-flexi {
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+    -o-box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+    background-color: transparent;
+    border: 0px solid #000;
+    padding-top: 60px;
+}
+
+.flex-control-nav {
+    display: none!important;
+}
+
+.set-flexi a {
+    margin: 5px;
+}
+.copyrights{
+	text-indent:-9999px;
+	height:0;
+	line-height:0;
+	font-size:0;
+	overflow:hidden;
+}
+/*=====================================
+  TAG LINE STYLES 
+    ===================================*/
+
+.tag-line {
+    background: #E9E9E9;
+    color: #000;
+}
+
+    .tag-line h2 {
+        font-size: 20px;
+        font-weight: 900;
+        padding: 5px 10px 10px 5px;
+        color: #005E5A;
+    }
+
+        .tag-line h2 > i {
+            margin-left: 8px;
+            margin-right: 8px;
+        }
+/*=====================================
+  HEADER LINE STYLES 
+    ===================================*/
+.header-line {
+    font-weight: 900;
+    font-size: 25px;
+    padding-bottom: 5px;
+    padding-top: 25px;
+    color: #000;
+}
+
+h1::after {
+    content: " ";
+    border: solid 2px #2f9484;
+    display: block;
+    width: 200px;
+    margin: 12px auto;
+}
+
+/*=====================================
+  ABOUT STYLES 
+  ===================================*/
+.about-div {
+    padding: 0px 30px;
+}
+
+.icon-round-border {
+    border: 10px double #1A94C4;
+    color: #2f9484;
+    text-align: center;
+    padding-top: 15px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+    .icon-round-border:hover {
+        color: #fff;
+        border: 10px double #fff;
+        background-color: #1A94C4;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+    }
+
+.about-div hr {
+    border: 1px solid #1A94C4;
+}
+
+.about-div h3 {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.about-div p {
+    padding-top: 10px;
+}
+
+.btn-set {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    margin-bottom: 20px;
+}
+/*=====================================
+  FACULTY STYLES 
+  ===================================*/
+#faculty-sec {
+    background-color: #000;
+    color: #fff;
+}
+
+    #faculty-sec .header-line {
+        color: #fff;
+    }
+.faculty-div h4 {
+    line-height:30px;
+    font-weight:700;
+}
+.faculty-div {
+    padding: 30px;
+}
+
+    .faculty-div hr {
+        border: 1px solid #1A94C4;
+    }
+
+    .faculty-div h3 {
+        font-size: 25px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .faculty-div p {
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+
+    .faculty-div img {
+        border: 10px double #fff;
+    }
+
+/*=====================================
+  CONTACT STYLES 
+  ===================================*/
+#contact-sec {
+    padding-top: 10px;
+    padding-bottom: 60px;
+    background: url(../img/contact.jpg) no-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+#contact-sec .overlay {
+        background: rgba(0, 0, 0, 0.76);
+        min-height: 600px;
+    }
+
+    #contact-sec h1 {
+        color:#fff;
+    }
+#contact-sec .form-control{
+    background-color:rgba(255, 255, 255, 0);
+    color:#fff;
+}
+/*=====================================
+  Footer STYLES 
+  ===================================*/
+#footer {
+    padding:5px 20px;
+    background-color:#2d3d5a;
+    text-align:right;
+    color:#fff;
+    font-size:15px;
+}
+/*-----------------------------------------------------------------------*/
+.bds{
+	border: 1px solid black;
+}
+.logo{
+	width: 80px;
+	height: 70px;
+}
+.float-left{
+	float: left;
+}
+.float-right{
+	float: right;
+}
+.logotitle{
+	color: #3489BF;
+	font-size: 22px;
+	font-weight: bold;
+}
+.smlogotitle{
+	font-size: 14px;
+	color: #9e9e9e;
+	padding-left: 10px;
+}
+.pd4{
+	padding: 6px 0px;
+}
+.pdt15{
+	padding-top: 15px;
+	
+}
+.pdt45{
+	padding-top: 45px;
+	
+}
+.pdl5{
+	padding-left: 5px;
+}
+.toplink{
+	font-size: 16px; 
+}
+.pot4836{
+	  position: relative;
+    top: 48px;
+    left: -36px;
+}
+/*---------*/
+/* .content{
+	width: 100%;
+	height: 443px;
+	background-image: url(../images/login_img.jpg);
+	background-size: 100% 100%;
+    margin: 0px auto;
+} */
+
+
+.login-topStyle {
+	float: right; 
+    background: url(../images/login_bg_white.png) center center repeat;
+    width: 285px;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+   /*  top: 85px;
+    right: 140px;  */ 
+    border-radius: 5px;
+    padding: 22px 30px;
+}
+.white{
+	color:white;
+}
+.logintitle{
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+.iptname{
+	width: 220px;
+	margin-bottom: 10px; 
+}
+.iptpsw{
+	width: 220px;
+	margin-bottom: 10px; 
+}
+.validate{
+	width: 120px;
+	margin-bottom: 10px; 
+}
+.clear{
+	clear: both;
+}
+.loginsubmit{
+	width: 100%;
+}
+.mgb10{
+	margin-bottom: 10px;
+}
+/*----------------*/
+.footer-hand{
+	width: 100%;
+	height:180px;
+	padding: 20px 80px;
+}
+.footer-center {
+	background: url(../images/login-center-bg.png) center center repeat;
+	width: 100%;
+	height: 100%;
+	margin: 0px auto;
+}
+.moudle-text1 {
+	font-size: 18px;
+	line-height: 26px;
+	display: block;
+	color: #767676;
+	text-align: left;
+		
+}
+.moudle-text2 {
+	font-size: 14px;
+		line-height: 18px;
+	color: #969696;
+}
+.pdt40l90{
+	padding:40px 0 0 70px;
+}
+.pdt5{
+	padding-top:5px;
+}
+.pdt50{
+	padding-top:50px;
+	padding-left: 20px;
+}
+.footer{
+	height: 60px;
+    background-color: #e1e1e1;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 60px;
+    width: 100%;
+}
+.footerText{
+	font-size: 14px;
+    color: #606060;
+    display: inline-block;
+}
+.pdb10{
+	padding-bottom: 10px;
+}
+.pdl5{
+	padding-left: 5px;
+}
+.bgwhite{
+	background-color: white;
+}
+.main-checkbox{
+    float: left;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+    position: relative;
+    margin: 5px 0 0 5px;
+    border: 1px solid #fff;
+}
+.main-checkbox label{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+ .main-checkbox label:after{
+    content: "";
+    width: 10px;
+    height: 5px;
+    position: absolute;
+    top: 5px;
+    left: 4px;
+    border: 3px solid #11a3fc;
+    border-top: none;
+    border-right: none;
+    background: transparent;
+    opacity: 0;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+ .main-checkbox input[type=checkbox]{
+    visibility: hidden;
+}
+ .main-checkbox input[type=checkbox]:checked + label:after{
+    opacity: 1;
+}
+.text{
+    float: left;
+    margin-left: 7px;
+    line-height: 20px;
+    padding-top: 5px;
+    text-transform: capitalize;
+}
+.mgt5{
+	margin-top: 5px;
+}
+
+/*top title ����CSS*/
+.topTitle{font-size:16px;height:50px;width:68px;margin-right:15px;margin-top:10px;}
+.topTitleActive{border-bottom:3px solid black;}
+.topahover:after{
+    position: absolute;
+    bottom: -4px;
+    left: 0px;
+    right: 0px;
+    height: 3px;
+    background: #000;
+    content: '';
+    opacity: 0;
+    -webkit-transition: -webkit-transform 0.2s ease-in;
+    transition: transform 0.1s ease-in;
+    -webkit-transform: scale3d(0, 1, 1);
+    transform: scale3d(0, 1, 1);
+}
+.topahover:hover::after{
+	opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+}
+/* .topahover:hover{border-bottom:3px solid black;} */
+  #scrollUp {background-color:#9E9E9E; border-radius:30px; bottom:20px;right:20px;width:38px;height:38px;}
+  
+  .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #6ab1ed;
+    border: 1px solid #6ab1ed;
+}
+  .navbar-inverse .navbar-toggle {
+    border-color: #337ab7;
+}
+.navbar-toggle {
+    border: 1px solid #337ab7;
+    background-color: #337ab7;
+}
+.fa-rotate-315 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(315deg);
+  -ms-transform: rotate(315deg);
+  transform: rotate(315deg);
+}
+.ccc{
+	color:#ccc;
+}
+.black{
+	color:#000;
+}
+a:focus {
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0;
+}

@@ -1,0 +1,384 @@
+*{
+	margin:0;
+	padding:0;
+}
+/* input[type="search"]{-webkit-appearance:none;}  */
+input::-webkit-search-cancel-button {
+	/* display: none; */
+	cursor:pointer;
+}
+ul{
+	list-style:none;
+}
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-track-piece {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    height: 8px;
+    background-color: rgba(125, 125, 125, 0.7);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    width: 8px;
+    background-color: rgba(125, 125, 125, 0.7);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+/*--修改easyuicss 按钮禁用状态下 添加 鼠标 禁用状态显示--*/
+.l-btn-disabled .l-btn-text,
+.l-btn-disabled .l-btn-icon{
+	cursor: not-allowed;
+}
+/*and (max-width: 1079px) */
+/* @media screen and (max-width: 1079px) {
+    body {
+        min-width:1080px;
+        overflow-x: auto
+    }
+} */
+/* .tabs-container {
+   overflow: initial; 
+}*/
+/* .l-btn-text{
+	font-size:14px;
+} */
+/* body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+} */
+/*----------房态图 room_status------start-----*/
+.roomStatus_smallRoomStatus{
+	display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    height: 20px;
+    width: 20px;
+    background-color: darkgray;
+    border: 2px solid;
+    border-radius: 20px;
+    line-height: 20px;
+}
+.exp{
+	background-color: mediumturquoise;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    bottom:0px;
+}
+.spare{
+	float: left;
+    line-height: 30px;
+    padding:0 10px;
+    height: 30px;
+    margin: 0px 5px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
+/*----------房态图 room_status------end-----*/
+/*--开房jsp---*/
+.input-roomopen{
+	width:170px;
+	height:22px;
+}
+.pdlf-roomopen{
+	padding-left:5px;
+}
+
+/* hotel start*/
+.hotel{
+	font-size: 12px;
+	margin: 5px;
+	background-color: lightblue;
+	width: auto;
+	height: 630px;
+}
+.hotel>h2{
+	margin: 5px;
+	padding: 5px;
+}
+.hotel-info{
+	background-color: white;
+	width:98%;
+	height: 90%;
+	margin: 5px auto;
+}
+.left{
+	float: left;
+	width:40%;
+	text-align: right;
+}
+.left>ul>li{
+	font-size: 14px;
+	line-height: 30px;
+	height:30px;
+}
+.right{
+	float: left;
+	width:58%;
+}
+.right li{
+	 line-height: 30px; 
+	 height:30px; 
+}
+/* .submit{
+	width: 80px;
+	height: 30px;
+	background-color:#0064A9;
+	line-height: 30px;
+	text-align: center;
+	margin-right: 10px;
+} */
+
+/* hotel end*/
+
+/* user-list start*/
+
+ .input{
+ 	line-height: 20px;
+    height: 20px;
+    padding: 0px 3px;
+    border: 1px solid #cccccc;
+    background: #ffffff;
+ }
+ .button{
+ 	height: 24px;
+    padding: 0px 5px;
+    cursor: pointer;
+    line-height: 22px;
+ }
+ .user-list{
+ 	font-size: 1.17em;
+ 	border: 1px solid #cccccc;
+ 	border-bottom: none;
+  display: inline-block;
+  padding: 3px 10px;
+  margin: 5px -3px -6px 5px;
+  /* float: left; */
+  background-color: #f1f1f1;
+  cursor: pointer;
+ }
+ .table-now{
+ 	clear: left;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    margin: 5px;
+    background-color: #f1f1f1;
+    text-align: left
+ }
+ .table-now table th{
+ 	background-color: #f1f1f1;
+    border: 1px #cccccc solid;
+    padding: 2px 5px;
+    text-align: center
+ }
+ .table-now table td{
+ 	background-color: white;
+ 	padding: 8px 5px;
+    text-align: center;
+    border: 1px solid #cccccc;
+ }
+ /* user-list end*/
+
+/* new-user start*/
+ .input-info{
+ 	padding: 5px 5px;
+ 	line-height: 20px;
+    height: 20px;
+    margin: 3px;
+ }
+
+.btn-submit{
+	text-align: center;
+    width: 78px;
+    margin-left: 5px;
+    padding: 5px;
+}
+.select-info{
+	padding: 5px 5px;
+	margin:3px;
+}
+
+.umsub{
+	width: 50px;
+    height: 30px;
+    margin: 10px;
+}
+
+
+/*---------index----------------*/
+.north_menu_left{
+	width:28px;
+	padding-top:3px;
+	padding-left:28px;
+	float:left;
+}
+.north_menu_center{
+	float: left;
+}
+.north_menu_right{
+	float: right;
+	padding-right:15px; 
+}
+.clear{
+	float: none;
+    width: 0;
+    height: 0;
+    clear: both;
+}
+.north_menu_right{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.indexquitcurrent{
+	color:black;
+	cursor:pointer;
+	text-decoration: underline;
+}
+.indexquitcurrent:hover{
+	color:#8e8686;
+}
+/*���������������---common---���������������������������*/
+.pd-2{
+	padding:2px;
+}
+.datebox-button a {
+  line-height: 22px;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  opacity: 1.0;
+  filter: alpha(opacity=60);
+}
+.datebox-button a:hover {
+  opacity: 0.6;
+  filter: alpha(opacity=100);
+}
+.dryColor{
+	text-decoration:none;
+	color:#404040;
+}
+.dryColor:hover{
+ text-decoration:underline;
+}
+
+/*room_status*/
+
+ .back1{
+	/* background-image: url(../img/roomback-green.jpg); */
+	background-color:green;
+	box-sizing: border-box;
+} 
+ .back2{
+	/* background-image: url(../img/roomback-gray.jpg); */
+	background-color:gray;
+	box-sizing: border-box;
+} 
+ .back3{
+	/*background-image: url(../img/roomback-gold.jpg);*/
+	background-color:gold;
+	box-sizing: border-box;
+} 
+ .back4{
+	/*background-image: url(../img/roomback-goldenrod.jpg);*/
+	background-color:goldenrod;
+	box-sizing: border-box;
+} 
+ .back5{
+	/*background-image: url(../img/roomback-red.jpg);*/
+	background-color:red;
+	box-sizing: border-box;
+} 
+ .back6{
+	/*background-image: url(../img/roomback-blue.jpg);*/
+	background-color:blue;
+	box-sizing: border-box;
+} 
+ .back1:hover, .back2:hover, .back3:hover, .back4:hover, .back5:hover, .back6:hover {
+    border-color: #eee;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.2);
+} 
+/* .btn{
+	background-color: #70b23b;
+    padding: 0px 8px;
+    line-height: 26px;
+    height: 28px;
+    overflow: hidden;
+    font-size: 22px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 1px;
+} */
+
+/*bootstrap兼容问题和easyui的bug*/
+.panel-header, .panel-body {
+	border-width: 0px;
+	/* background-color: white; */
+}
+
+.datagrid, .combo-p {
+	border: solid 1px #D4D4D4;
+}
+
+.datagrid * {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+/*------banquet_scheduledChart 餐宴预定图----------*/
+#head_banquetSC td{
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+    width: 60px;
+	text-align: center;
+	cursor: pointer;
+	height: 30px;
+	line-height: 30px;
+}
+#ttd td{
+	border-bottom: 1px solid #ccc;
+}
+#head_banquetSC td:hover{
+	background-color:#ccc;
+	
+}
+#tdo td:last-child{
+border-right: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+}
+.scheduledStateHave{
+	background-color:green;
+	box-sizing: border-box;
+}
+.scheduledStateEmpty{
+	background-color:#ddd;
+	box-sizing: border-box;
+}
+.scheduledStateHave:hover, .scheduledStateEmpty:hover{
+    border-color: #eee;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.2);
+}
+/* 宾客档案 编辑图片上传 按钮*/
+.upload-img-guest-file{
+   border: 0;
+    padding: 4px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #9ba842;
+    border-radius: 2px;
+}
+.upload-img-guest-file:hover{
+	background-color: #b1c242;
+}

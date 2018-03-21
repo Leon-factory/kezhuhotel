@@ -1,0 +1,1 @@
+ren client client1 && ren revclient client && ren .\js\client client1 && ren .\js\revclient client

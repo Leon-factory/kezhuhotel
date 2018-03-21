@@ -1,0 +1,1 @@
+rd /s /q revclient && rd /s /q .\js\revclient && rd /s /q .\js\revjson
